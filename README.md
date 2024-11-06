@@ -1,6 +1,7 @@
 # Belgian Traffic Accidents Data Pipeline
 
-This project implements a comprehensive **ETL pipeline** for processing and analyzing a dataset of **Belgian traffic accidents**. The raw data is initially provided as a `.txt` file, which is uploaded to **AWS S3**. Using **AWS Glue ETL**, the data is cleaned and transformed into a compressed **Parquet** format, making it efficient and ready for analysis.
+This project implements a comprehensive **ETL pipeline** for processing a dataset of **Belgian traffic accidents**.
+The technologies used are **Amazon S3** and **Amazon Glue**
 
 ## Pipeline Overview
 1. **Data Source**: The Belgian Traffic Accidents dataset (`.txt` file) is used.
