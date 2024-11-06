@@ -1,4 +1,4 @@
-# belgium-traffic-accidents-analysis
+# belgium-traffic-accidents-data-pipeline
 Analyzing traffic accident data and trends in Belgium
 
 
