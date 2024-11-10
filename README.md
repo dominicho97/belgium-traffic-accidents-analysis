@@ -3,6 +3,11 @@
 This project implements a comprehensive **ETL pipeline** for processing a dataset of **Belgian traffic accidents**.
 The technologies used are **Amazon S3** and **Amazon Glue**
 
+## Architecture Overview
+This diagram outlines the ETL pipeline’s architecture, showing how raw data flows through AWS S3, AWS Glue Crawler, AWS Glue ETL back to S3 ready for analysis.
+![Uploading etl_excalidraw.png…]()
+
+
 ## Pipeline Overview
 1. **Data Source**: The Belgian Traffic Accidents dataset (`.txt` file) is used.
    
