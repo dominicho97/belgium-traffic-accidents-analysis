@@ -6,8 +6,6 @@ The technologies used are **Amazon S3** and **Amazon Glue**
 ## Pipeline Overview
 1. **Data Source**: The Belgian Traffic Accidents dataset (`.txt` file) is used.
    
-![s3bucket_traffic](https://github.com/user-attachments/assets/c24f0e04-019c-4bfb-8cbf-1d586e6a46b0)
-
 2. **Amazon S3** object storage to store the **raw data**
 3. **Catalog with AWS Glue Crawler**: **AWS Glue Crawler** is used to scan the **S3 data** and infer its **schema**, registering it in the **AWS Glue Data Catalog**.
    
