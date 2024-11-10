@@ -9,9 +9,6 @@ The technologies used are **Amazon S3** and **Amazon Glue**
 2. **Amazon S3** object storage to store the **raw data**
 3. **Catalog with AWS Glue Crawler**: **AWS Glue Crawler** is used to scan the **S3 data** and infer its **schema**, registering it in the **AWS Glue Data Catalog**.
    
-![traffic_crawler](https://github.com/user-attachments/assets/6d126ad1-ebcd-40d7-88f4-a9f6ae3a3607)
-
-
 4. **ETL Processing**: **AWS Glue ETL** cleans, transforms, and converts the raw data into a **Parquet** file format with **Snappy compression**, optimizing it for performance and storage.
    
    ***Transforming the data***
