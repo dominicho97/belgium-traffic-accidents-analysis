@@ -27,6 +27,5 @@ The technologies used are **Amazon S3** and **Amazon Glue**
 ### Result
 The transformed Parquet data is now accessible for analysis with tools like Amazon Athena, Power BI, and Python, enabling efficient and scalable insights.
 
-![athena_clean](https://github.com/user-attachments/assets/b78a0018-fd8b-4144-9dce-3fe7a3980500)
 
 
