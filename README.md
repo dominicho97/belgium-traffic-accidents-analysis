@@ -5,7 +5,8 @@ The technologies used are **Amazon S3** and **Amazon Glue**
 
 ## Architecture Overview
 This diagram outlines the ETL pipeline’s architecture, showing how raw data flows through AWS S3, AWS Glue Crawler, AWS Glue ETL back to S3 ready for analysis.
-![Uploading etl_excalidraw.png…]()
+
+![etl_excalidraw](https://github.com/user-attachments/assets/ea76c9b4-ccf6-4d7c-9150-33eec6b0ba9c)
 
 
 ## Pipeline Overview
