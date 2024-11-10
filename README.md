@@ -15,7 +15,10 @@ The technologies used are **Amazon S3** and **Amazon Glue**
 
 
 4. **ETL Processing**: **AWS Glue ETL** cleans, transforms, and converts the raw data into a **Parquet** file format with **Snappy compression**, optimizing it for performance and storage.
-   
+   ***Transforming the data***
+![traffic_csv_schema](https://github.com/user-attachments/assets/3e03dbe6-cabd-4cf2-9f46-fdfb2d8431a3)
+
+ ***AWS Glue ETL (visual tool)***
 ![traffic_etl_job_visual](https://github.com/user-attachments/assets/6c953be1-2830-49e3-940e-0967cc85f2e2)
 
 5. **Amazon S3** is used again to store the clean **Parquet** file. Ready for analysis.
